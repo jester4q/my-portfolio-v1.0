@@ -1,0 +1,59 @@
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+
+  h1 {
+    flex: none;
+    margin: {
+      top: 2px;
+      right: 64px;
+    }
+    line-height: 25px;
+    padding-top: 3px;
+  }
+
+  menu {
+    margin: {
+      left: auto;
+      top: 2px;
+    }
+    line-height: 25px;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        cursor: pointer;
+        margin-left: 64px;
+        &.uderline {
+          position: relative;
+          &:hover {
+            &:after {
+              left: auto;
+              right: 0;
+              width: 0;
+            }
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            transition: all 0.3s ease;
+            margin: auto {
+              bottom: -5px;
+            }
+            height: 2px;
+            background: #ffffff;
+            opacity: 1;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            right: auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

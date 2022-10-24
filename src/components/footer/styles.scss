@@ -1,0 +1,33 @@
+footer {
+    .letstalk {
+        height: 168px;
+        background-color: #f66900;
+
+        &:hover {
+            > div {
+                > img {
+                    margin-left: 64+32px;
+                }
+            }
+        }
+
+        > div {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            height: 100%;
+            align-items: center;
+            h1 {
+                height: 87px;
+                font-size: 56px;
+                color: #ffffff;
+                line-height: 87px;
+                cursor: default;
+            }
+            img {
+                margin-left: 64px;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}

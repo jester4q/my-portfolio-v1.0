@@ -1,0 +1,25 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0d0d0d;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    min-height: 100%;
+    color: #ffffff;
+    line-height: inherit;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-width: 0;
+        pointer-events: none;
+        user-select: none;
+    }
+}
