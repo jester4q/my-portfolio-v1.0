@@ -1,0 +1,59 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-width: 480px;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    min-height: 100%;
+    color: #ffffff;
+    line-height: inherit;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-width: 0;
+        // pointer-events: none;
+        //user-select: none;
+    }
+}
+
+.content {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+// sm
+@media (min-width: 640px) {
+    .content {
+    }
+}
+
+// md
+@media (min-width: 768px) {
+    .content {
+    }
+}
+
+// lg
+@media (min-width: 1024px) {
+    .content {
+    }
+}
+
+// lx
+@media (min-width: 1280px) {
+    .content {
+        max-width: 1200px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

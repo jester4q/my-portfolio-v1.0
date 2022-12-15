@@ -1,0 +1,39 @@
+.letstalk {
+    height: 168px;
+    background-color: #f66900;
+    cursor: pointer;
+
+    &:hover {
+        > div {
+            .arrow {
+                margin-left: 64+32px;
+            }
+        }
+    }
+
+    > div {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        h1 {
+            height: 87px;
+            font-size: 56px;
+            color: #ffffff;
+            line-height: 87px;
+            cursor: pointer;
+        }
+        .arrow {
+            margin-left: 64px;
+            transition: all 0.3s ease;
+            width: 50px;
+            height: 50px;
+            background: {
+                repeat: no-repeat;
+                size: 100% 100%;
+                image: url('../../../assets/img/arrow.svg');
+            }
+        }
+    }
+}

@@ -1,17 +1,22 @@
-import './style.scss';
+import Link from '../link/Link';
+import './header.scss';
 
-export function Header() {
+export default function Header() {
     return (
         <header className="header">
-            <h1>
-                <img height={19} src="/img/logo.svg"></img>
-            </h1>
-            <menu>
-                <ul>
-                    <li className="uderline">Info</li>
-                    <li className="uderline">Contact</li>
-                </ul>
-            </menu>
+            <div className="header__topbar content">
+                <div className="header__logo"></div>
+                <nav className="header__menu">
+                    <ul>
+                        <li>
+                            <Link>Info</Link>
+                        </li>
+                        <li>
+                            <Link>Contact</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
     );
 }

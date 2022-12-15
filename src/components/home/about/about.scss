@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__text1 {
+    line-height: 48px;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-right: 64px;
+}
+
+.about__text2 {
+    line-height: 28px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 400;
+    margin-left: 64px;
+    position: relative;
+}
+
+.about__link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
