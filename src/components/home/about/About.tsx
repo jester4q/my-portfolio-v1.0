@@ -3,7 +3,7 @@ import './about.scss';
 
 export default function About() {
     return (
-        <section className="about content">
+        <section className="about container">
             <p className="about__text1">
                 Hi, my name is Max. I implements modern websites to make you business even better, improve sales and keep you customers happy.
             </p>
@@ -11,7 +11,7 @@ export default function About() {
                 I would be happy to work with cool people, help them in business or learn something new. It would help me grow as specialist and be a good team
                 player.
                 <span className="about__link">
-                    <Link>About me</Link>
+                    <Link to="/info">About me</Link>
                 </span>
             </p>
         </section>

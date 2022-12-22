@@ -30,7 +30,7 @@ export function SnakeGameBoard() {
     }, []);
 
     return (
-        <div className="snake-game content">
+        <div className="snake-game container">
             <h1>Snake Game</h1>
 
             <canvas className="board" ref={canvasRef}></canvas>

@@ -1,11 +1,14 @@
+$color: #ffffff;
+$stealth: #6b6b6b;
+
 .link {
     cursor: pointer;
     position: relative;
     line-height: 25px;
     text-decoration: none;
-    color: #fff;
+    color: $color;
     &:visited {
-        color: #fff;
+        color: $color;
     }
     &:hover {
         &:after {
@@ -22,12 +25,22 @@
             bottom: -5px;
         }
         height: 2px;
-        background: #ffffff;
+        background: $color;
         opacity: 1;
         top: auto;
         bottom: 0;
         left: 0;
         right: auto;
         width: 100%;
+    }
+}
+
+.link.link_stealth {
+    color: $stealth;
+    &:visited {
+        color: $stealth;
+    }
+    &:after {
+        display: none;
     }
 }

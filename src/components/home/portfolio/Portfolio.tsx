@@ -23,7 +23,7 @@ const PORTFOLIO = [
 
 export default function Portfolio() {
     return (
-        <section className="portfolio content">
+        <section className="portfolio container">
             <h1>
                 <sup>My develop tell best about me</sup>Portfolio&nbsp;<span>08/22</span>
             </h1>

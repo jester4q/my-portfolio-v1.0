@@ -23,7 +23,7 @@ body {
     }
 }
 
-.content {
+.container {
     padding-left: 40px;
     padding-right: 40px;
     margin: 0 auto;
@@ -33,25 +33,25 @@ body {
 
 // sm
 @media (min-width: 640px) {
-    .content {
+    .container {
     }
 }
 
 // md
 @media (min-width: 768px) {
-    .content {
+    .container {
     }
 }
 
 // lg
 @media (min-width: 1024px) {
-    .content {
+    .container {
     }
 }
 
 // lx
 @media (min-width: 1280px) {
-    .content {
+    .container {
         max-width: 1200px;
         padding-left: 0;
         padding-right: 0;

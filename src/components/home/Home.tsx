@@ -9,7 +9,7 @@ import Footer from './footer/Footer';
 export default function Home() {
     return (
         <>
-            <article>
+            <article className="home-page">
                 <Hello />
                 <About />
                 <Portfolio />

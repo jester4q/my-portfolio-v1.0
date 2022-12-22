@@ -13,7 +13,7 @@ export default function Hello() {
         }
     }, []);
     return (
-        <section className="hello content" ref={helloBlockRef}>
+        <section className="hello container" ref={helloBlockRef}>
             <div className="hello__animate hello__row1">
                 <h1 className="">Let's implement</h1>
             </div>
