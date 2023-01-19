@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Website for weight loss «bormental.ru»",
+        "desc": "Website develop / 2008",
+        "years": "2007 - 2009",
+        "url": "https://www.bormental.ru",
+        "image": "img/portfolio/bormental.ru.png"
+    },
+    {
+        "title": "FFG greenfee website «mygreenfee.com»",
+        "years": "20012 - 2017",
+        "desc": "Website develop / 2012",
+        "url": "https://mygreenfee.com",
+        "image": "img/portfolio/mygreenfee.com.png"
+    },
+    {
+        "title": "BGV championships website «mm.bayerischer-golfverband.de»",
+        "years": "20018 - 2019",
+        "desc": "Server side develop / 2018",
+        "url": "https://mm.bayerischer-golfverband.de",
+        "image": "img/portfolio/mm.bayerischer-golfverband.de.png"
+    },
+    {
+        "title": "A9Client - Albatros Datenservice project for golf associations",
+        "years": "20015 - 2022",
+        "desc": "Frontend side develop / 2015",
+        "url": "https://dockerw10-prod.albatros.net/client/",
+        "image": "img/portfolio/dockerw10-prod.albatros.net.png"
+    }
+]

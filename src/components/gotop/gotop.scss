@@ -1,0 +1,32 @@
+.gotop {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    z-index: 99990;
+    bottom: 40px;
+    right: 20px;
+}
+
+.gotop__arrow {
+    border-radius: 53px;
+    transform: scale(0.8);
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    animation-name: go-top__zoom;
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    background-image: url(../../assets/img/back.svg);
+}
+
+@keyframes gotop__zoom {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

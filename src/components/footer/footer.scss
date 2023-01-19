@@ -1,0 +1,39 @@
+.footer {
+}
+
+.footer__menu {
+    ul {
+        list-style: none;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h2 {
+        font-size: 20px;
+        line-height: 1;
+        font-weight: 400;
+        padding-bottom: 16px;
+    }
+
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.footer__menu-item {
+    font-size: 20px;
+    padding-bottom: 6px;
+    line-height: 32px;
+    a {
+        font-size: 20px;
+    }
+}
+
+.footer__menu-stealth-item {
+    margin-top: 64px;
+    line-height: 14px;
+    color: #6b6b6b;
+    font-size: 14px;
+    font-weight: 400;
+}
