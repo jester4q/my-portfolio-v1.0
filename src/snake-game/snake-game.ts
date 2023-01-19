@@ -72,7 +72,8 @@ export class SnakeGame {
 
     private checkHitWall() {
         const head = this.snake.head;
-        if (head.x == -this.snake.size || head.y == -this.snake.size || head.x == this.canvas.width || head.y == this.canvas.height) {
+        console.log(head, this.canvas.width, this.canvas.height);
+        if (head.x == -this.snake.size || head.y == -this.snake.size || head.x >= this.canvas.width || head.y >= this.canvas.height) {
             this.gameOver = true;
             this.snake = new Snake(this.board);
         }
@@ -114,7 +115,11 @@ export class SnakeGame {
         }
 
         if (event.keyCode == 82) {
-            // this.restart();
+            this.restart();
         }
+    }
+
+    private restart() {
+        this.gameOver = false;
     }
 }

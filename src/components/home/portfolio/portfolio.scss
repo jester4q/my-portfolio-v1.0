@@ -9,6 +9,9 @@
         font-weight: 600;
         text-transform: uppercase;
         white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         sup {
             position: absolute;
             top: 0;
@@ -31,13 +34,14 @@
 .portfolio__gallery {
     display: flex;
     flex-direction: row;
-    margin: -8px 0 0 -8px;
+    flex-wrap: wrap;
+    margin: -16px 0 0 -8px;
 }
 
 .portfolio__item {
     height: 566px;
-    width: (1200 - 32) * 0.33px;
-    margin: 8px;
+    width: 386.33px;
+    margin: 16px 8px;
     overflow: hidden;
 }
 
@@ -74,5 +78,8 @@
         font-size: 28px;
         font-family: 'Inter', Arial, sans-serif;
         font-weight: 400;
+        max-height: 62px;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 }

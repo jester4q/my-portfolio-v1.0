@@ -1,4 +1,5 @@
 .snake-game {
+    margin-top: 64px;
     h1 {
         font-size: 56px;
         font-weight: 600;
@@ -8,5 +9,7 @@
         border: 3px solid #fff;
         width: 100%;
         height: 500px;
+        margin-top: 32px;
+        margin-bottom: 64px;
     }
 }

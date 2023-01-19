@@ -1,25 +1,6 @@
 import './portfolio.scss';
 
-const PORTFOLIO = [
-    {
-        title: 'Website for weight loss «Bormental.ru»',
-        desc: 'Website develop / 2009',
-        url: 'https://www.bormental.ru',
-        image: 'img/portfolio/bormental.ru.png',
-    },
-    {
-        title: 'Website for weight loss «Bormental.ru»',
-        desc: 'Website develop / 2009',
-        url: 'https://www.bormental.ru',
-        image: 'img/portfolio/bormental.ru.png',
-    },
-    {
-        title: 'Website for weight loss «Bormental.ru»',
-        desc: 'Website develop / 2009',
-        url: 'https://www.bormental.ru',
-        image: 'img/portfolio/bormental.ru.png',
-    },
-];
+import PORTFOLIO from '../../../data/projects.data.json';
 
 export default function Portfolio() {
     return (

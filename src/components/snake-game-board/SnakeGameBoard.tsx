@@ -30,10 +30,10 @@ export function SnakeGameBoard() {
     }, []);
 
     return (
-        <div className="snake-game container">
+        <article className="snake-game container">
             <h1>Snake Game</h1>
 
             <canvas className="board" ref={canvasRef}></canvas>
-        </div>
+        </article>
     );
 }

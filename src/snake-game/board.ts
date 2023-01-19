@@ -14,7 +14,7 @@ export class Board {
     public printGameOver() {
         this.context.font = '40px Arial';
         this.context.fillStyle = '#00FF42';
-        this.context.fillText('Game Over. Press `R` to restart', this.width / 2 - 150, 300);
+        this.context.fillText('Game Over. Press `R` to restart', this.width / 2 - 230, 300);
     }
 
     public printScore(score: number, highscore: number) {
