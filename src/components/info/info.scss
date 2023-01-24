@@ -8,7 +8,7 @@
     width: 406px;
     img {
         width: 406px;
-        height: 529px;
+        height: 481px;
     }
 }
 
@@ -45,12 +45,21 @@
             font-size: 14px;
             font-weight: 400;
             text-align: left;
+            padding-bottom: 14px;
         }
         td {
             color: #ffffff;
             font-size: 18px;
             font-weight: 400;
             text-align: left;
+            padding-bottom: 14px;
+            vertical-align: top;
+            &:first-child {
+                padding-right: 64px;
+                color: #9d9d9d;
+                font-weight: 400;
+                white-space: nowrap;
+            }
         }
     }
 }

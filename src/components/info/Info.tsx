@@ -5,38 +5,46 @@ export default function Info() {
     return (
         <article className="info-page container">
             <aside className="info-page__aside">
-                <img></img>
+                <img src="/img/myphoto.jpg"></img>
             </aside>
             <section className="info-page__text">
-                <h1>I aspire to become a cool specialist and realize myself in the field of interface design</h1>
+                <h1>I aspire to become a cool specialist and realize myself in the field of web develop</h1>
 
                 <h3>About</h3>
 
                 <p>
-                    My name is Max and I want to grow every day in a field that I love - design. At the head of it I put minimalistic solutions that put the
-                    content at the forefront and solve the business problem as effectively as possible.
-                </p>
-
-                <p>
-                    Now I'm looking for a place where I can gain experience under the guidance of a master. I am always open to new acquaintances and
-                    collaborations.
+                    My name is Max and I have a huge experience working as a full-stack web developer. I want to grow every day in this field. I am writing
+                    clean, testable, and secure codes based on web development best practices and build effective solutions that focused on your needs and which
+                    are ease in future support.
                 </p>
 
                 <table>
                     <thead>
                         <tr>
-                            <th>Skills</th>
+                            <th>My Skills</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>ReactJs</td>
-                            <td></td>
+                            <td>Programming Languages: </td>
+                            <td>PHP, TS, Java, Python</td>
                         </tr>
                         <tr>
-                            <td>AngularJs</td>
-                            <td></td>
+                            <td>Frameworks, CMS and libraries: </td>
+                            <td>Yii2, WP, Angular, ReactJs, NodeJs, NextJS, NestJs, Webpack, OpenApi(Swagger), MUI, Tailwind, Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <td>Web technologies: </td>
+                            <td>HTML, JS(jQuery), CSS(LESS, SASS), SVG, WebGL, SOAP, REST, JSON, CSV</td>
+                        </tr>
+                        <tr>
+                            <td>Databases: </td>
+                            <td>MySQL, PostgresSQL</td>
+                        </tr>
+                        <tr>
+                            <td>API integrations: </td>
+                            <td>Mailjet, GoogleMaps, Mangopay, Social login</td>
                         </tr>
                     </tbody>
                 </table>
