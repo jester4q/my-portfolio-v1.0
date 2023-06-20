@@ -1,4 +1,4 @@
-# Getting Started with My portfolio
+# My portfolio
 
-What intrasting i am doing in my life as webdeveloper and programmer.
+What interesting i am doing in my life as web developer and programmer.
 
